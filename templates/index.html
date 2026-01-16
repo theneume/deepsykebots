@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Academy - AI Assistant</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+            max-width: 600px;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #e94560 0%, #533483 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .header p {
+            font-size: 14px;
+            opacity: 0.95;
+            line-height: 1.5;
+        }
+
+        .init-form {
+            padding: 30px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+            font-weight: 600;
+        }
+
+        .form-group input,
+        .form-group select {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+
+        .form-group input:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: #e94560;
+        }
+
+        .form-group small {
+            display: block;
+            margin-top: 5px;
+            color: #666;
+            font-size: 13px;
+        }
+
+        .btn {
+            width: 100%;
+            padding: 14px;
+            background: linear-gradient(135deg, #e94560 0%, #533483 100%);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(233, 69, 96, 0.3);
+        }
+
+        .btn:active {
+            transform: translateY(0);
+        }
+
+        .chat-container {
+            display: none;
+            flex-direction: column;
+            height: 600px;
+        }
+
+        .messages {
+            flex: 1;
+            padding: 20px;
+            overflow-y: auto;
+            background: #f8f9fa;
+        }
+
+        .message {
+            margin-bottom: 15px;
+            display: flex;
+            align-items: flex-start;
+            animation: fadeIn 0.3s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .message.user {
+            justify-content: flex-end;
+        }
+
+        .message-content {
+            max-width: 70%;
+            padding: 12px 16px;
+            border-radius: 12px;
+            line-height: 1.5;
+            word-wrap: break-word;
+        }
+
+        .message.assistant .message-content {
+            background: white;
+            color: #333;
+            border: 2px solid #e0e0e0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        .message.user .message-content {
+            background: linear-gradient(135deg, #e94560 0%, #533483 100%);
+            color: white;
+        }
+
+        .input-area {
+            padding: 20px;
+            background: white;
+            border-top: 2px solid #e0e0e0;
+            display: flex;
+            gap: 10px;
+        }
+
+        .input-area input {
+            flex: 1;
+            padding: 12px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+
+        .input-area input:focus {
+            outline: none;
+            border-color: #e94560;
+        }
+
+        .input-area button {
+            padding: 12px 24px;
+            background: linear-gradient(135deg, #e94560 0%, #533483 100%);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        .input-area button:hover {
+            transform: scale(1.05);
+        }
+
+        .input-area button:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .typing-indicator {
+            display: none;
+            padding: 12px 16px;
+            background: white;
+            border: 2px solid #e0e0e0;
+            border-radius: 12px;
+            max-width: 70px;
+        }
+
+        .typing-indicator span {
+            height: 8px;
+            width: 8px;
+            background: #e94560;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 5px;
+            animation: typing 1.4s infinite;
+        }
+
+        .typing-indicator span:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+
+        .typing-indicator span:nth-child(3) {
+            animation-delay: 0.4s;
+        }
+
+        @keyframes typing {
+            0%, 60%, 100% {
+                transform: translateY(0);
+            }
+            30% {
+                transform: translateY(-10px);
+            }
+        }
+
+        .error-message {
+            background: #fee;
+            color: #c33;
+            padding: 10px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #fcc;
+        }
+
+        /* Scrollbar styling */
+        .messages::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        .messages::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+
+        .messages::-webkit-scrollbar-thumb {
+            background: #e94560;
+            border-radius: 4px;
+        }
+
+        .messages::-webkit-scrollbar-thumb:hover {
+            background: #d63851;
+        }
+    </style>
+<script src="https://sites.super.myninja.ai/_assets/ninja-daytona-script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📸 Photography Academy</h1>
+            <p>Your personal AI assistant for photography education</p>
+        </div>
+
+        <div class="init-form" id="initForm">
+            <form id="userForm">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your name">
+                </div>
+
+                <div class="form-group">
+                    <label for="birthDate">Birth Date</label>
+                    <input type="date" id="birthDate" name="birthDate" required>
+                    <small>Used to personalize your learning experience</small>
+                </div>
+
+                <div class="form-group">
+                    <label for="gender">Gender</label>
+                    <select id="gender" name="gender" required>
+                        <option value="">Select...</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="btn">Start Conversation</button>
+            </form>
+        </div>
+
+        <div class="chat-container" id="chatContainer">
+            <div class="messages" id="messages">
+                <div class="typing-indicator" id="typingIndicator">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="input-area">
+                <input type="text" id="messageInput" placeholder="Ask about our photography courses...">
+                <button id="sendBtn">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let sessionId = null;
+
+        // Generate a unique session ID
+        function generateSessionId() {
+            return 'session_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
+        }
+
+        document.getElementById('userForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            const name = document.getElementById('name').value;
+            const birthDate = document.getElementById('birthDate').value;
+            const gender = document.getElementById('gender').value;
+            
+            // Generate session ID
+            sessionId = generateSessionId();
+
+            try {
+                const response = await fetch('/init-profile', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ 
+                        name, 
+                        birth_date: birthDate, 
+                        gender,
+                        session_id: sessionId 
+                    })
+                });
+
+                const data = await response.json();
+                
+                if (data.success) {
+                    document.getElementById('initForm').style.display = 'none';
+                    document.getElementById('chatContainer').style.display = 'flex';
+                    
+                    // Add welcome message
+                    addMessage('assistant', data.greeting);
+                    
+                    document.getElementById('messageInput').focus();
+                } else {
+                    alert('Error initializing chat: ' + (data.error || 'Unknown error'));
+                }
+            } catch (error) {
+                alert('Error initializing chat. Please try again.');
+                console.error(error);
+            }
+        });
+
+        document.getElementById('sendBtn').addEventListener('click', sendMessage);
+        document.getElementById('messageInput').addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') {
+                sendMessage();
+            }
+        });
+
+        async function sendMessage() {
+            const input = document.getElementById('messageInput');
+            const message = input.value.trim();
+            
+            if (!message || !sessionId) return;
+
+            // Add user message
+            addMessage('user', message);
+            input.value = '';
+
+            // Show typing indicator
+            document.getElementById('typingIndicator').style.display = 'block';
+            scrollToBottom();
+
+            // Disable send button
+            document.getElementById('sendBtn').disabled = true;
+
+            try {
+                const response = await fetch('/chat', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ session_id: sessionId, message })
+                });
+
+                const data = await response.json();
+                
+                // Hide typing indicator
+                document.getElementById('typingIndicator').style.display = 'none';
+                
+                // Add assistant response
+                addMessage('assistant', data.response);
+            } catch (error) {
+                document.getElementById('typingIndicator').style.display = 'none';
+                addMessage('assistant', 'Sorry, I encountered an error. Please try again.');
+                console.error(error);
+            } finally {
+                document.getElementById('sendBtn').disabled = false;
+                input.focus();
+            }
+        }
+
+        function addMessage(role, content) {
+            const messagesDiv = document.getElementById('messages');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${role}`;
+            
+            const contentDiv = document.createElement('div');
+            contentDiv.className = 'message-content';
+            contentDiv.textContent = content;
+            
+            messageDiv.appendChild(contentDiv);
+            messagesDiv.appendChild(messageDiv);
+            
+            scrollToBottom();
+        }
+
+        function scrollToBottom() {
+            const messagesDiv = document.getElementById('messages');
+            messagesDiv.scrollTop = messagesDiv.scrollHeight;
+        }
+    </script>
+</body>
+</html>
