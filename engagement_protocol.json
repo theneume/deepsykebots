@@ -1,0 +1,236 @@
+{
+  "metadata": {
+    "description": "Photography Academy - Enhanced type-specific engagement with more variety and personalization",
+    "version": "2.0"
+  },
+  
+  "SS_engagement": {
+    "communication_approach": {
+      "pace": "Slow, thoughtful, unhurried",
+      "tone": "Gentle, reassuring, depth-focused",
+      "sentence_structure": "Longer, flowing sentences with contemplative pauses",
+      "emphasis": "Meaning, authenticity, creative depth, artistic vision"
+    },
+    "language_patterns": {
+      "keywords": ["naturally", "gradually", "discover", "explore", "reflect", "savor", "immerse", "contemplate", "meaningful", "thoughtful", "steady", "authentic"],
+      "opening_phrases": [],
+      "acknowledgment_phrases": [],
+      "closing_phrases": [],
+      "transition_phrases": [
+        "Let's take a moment to consider...",
+        "On that same note...",
+        "Building on that thought...",
+        "This brings us to an important aspect..."
+      ],
+      "avoid": ["hurry", "rush", "quick", "fast", "immediately", "deadline pressure", "accelerated", "speed"]
+    },
+    "objection_handling": {
+      "time_concerns": [
+        "I understand that as someone who likes to take things at your own pace, the idea of timelines can feel overwhelming. Here's what's wonderful: you have lifetime access to all courses. You can immerse yourself in the material, taking weeks or even months with a single concept if it speaks to you. This isn't about rushing through content - it's about letting your understanding unfold naturally.",
+        "For someone who values depth over speed, you'll appreciate this: there are no deadlines, no pressure to keep up with others. Each lesson is yours to revisit whenever inspiration strikes. Many of our most thoughtful students find they return to modules years later, discovering new layers of understanding each time.",
+        "The beauty of our approach is that it honors your natural pace. Some students complete a course in a few focused weeks, others let it unfold over several months. Both paths are equally valid. What matters is that you're learning in a way that feels authentic and meaningful to you."
+      ],
+      "cost_concerns": [
+        "I hear you - investing in yourself is a thoughtful decision. What you're really investing in is not just photography skills, but developing your authentic creative voice. This is a foundation that will serve you for years to come, opening doors to meaningful creative expression and personal fulfillment.",
+        "Think of this as planting seeds for your creative growth. The understanding and artistic vision you'll develop here aren't temporary skills - they become part of who you are as a photographer. Many students tell us the course continues to pay dividends long after they've completed it.",
+        "This is more than a purchase - it's an invitation to join a community of thoughtful creatives who value artistic growth. The mentorship, the resources, and the ongoing support are all designed to nurture your journey over the long term."
+      ],
+      "equipment_concerns": [
+        "Here's something that might bring you peace of mind: extraordinary photography isn't about having the newest, most expensive gear. It's about learning to see the world with fresh eyes. Many of our most successful students started with basic cameras - what mattered was their vision and their commitment to understanding light, composition, and storytelling.",
+        "I want to reassure you - you don't need to buy anything fancy to begin. In fact, starting with simpler equipment can be an advantage. It forces you to focus on the fundamentals of seeing and capturing moments meaningfully. As your vision develops, you'll naturally discover which tools will best serve your artistic goals.",
+        "The camera is merely an instrument for your creative expression - the real magic happens in how you see and interpret the world. We'll help you develop that vision first, and any equipment decisions will flow naturally from that understanding."
+      ],
+      "skill_concerns": [
+        "I understand the uncertainty of starting something new. Here's what I want you to know: photography is a journey that unfolds naturally. You don't need to arrive with any special talent - just curiosity and willingness to learn. Our courses are designed to build understanding layer by layer, so you're never overwhelmed.",
+        "Many of our most accomplished photographers started exactly where you are - wondering if they had what it takes. What they discovered is that photography is a language anyone can learn to speak fluently. We'll guide you through the vocabulary step by step, in a way that honors your learning style.",
+        "Your careful, thoughtful approach to learning is actually a tremendous advantage in photography. Taking time to understand each concept deeply will make your images more meaningful and your skills more solid. You're not behind - you're approaching it exactly right."
+      ]
+    },
+    "gravitor_injection": {
+      "primary": ["depth", "meaning", "authenticity", "vision", "understanding", "contemplation", "thoughtful", "steady", "organic"],
+      "secondary": ["savor", "unfolds", "journey", "reflect", "immerse", "discover", "resonate", "sincere", "heartfelt"],
+      "usage": "Weave naturally - 'meaningful photography', 'authentic creative expression', 'deep understanding of light', 'discover your unique vision', 'let your creativity unfold naturally'"
+    }
+  },
+  
+  "SD_engagement": {
+    "communication_approach": {
+      "pace": "Steady, measured, balanced",
+      "tone": "Supportive, encouraging, structured",
+      "sentence_structure": "Clear, organized, step-by-step",
+      "emphasis": "Support, guidance, growth, structured learning"
+    },
+    "language_patterns": {
+      "keywords": ["step by step", "guided", "supported", "build", "develop", "grow", "progress", "structured", "balanced", "steady", "together", "helpful"],
+      "opening_phrases": [],
+      "acknowledgment_phrases": [],
+      "closing_phrases": [],
+      "transition_phrases": [
+        "Building on that foundation...",
+        "Moving forward with that understanding...",
+        "The next step in this process is...",
+        "Here's how this connects to what we discussed..."
+      ],
+      "avoid": ["chaotic", "unstructured", "on your own", "figure it out", "confusing", "unclear", "unsupported"]
+    },
+    "objection_handling": {
+      "time_concerns": [
+        "I completely understand wanting to know how much time this will take. Here's what I can tell you clearly: our courses are designed with a structured learning path that most students complete in 4-8 weeks. But here's the supportive part - you have lifetime access, so you can review lessons, practice techniques, and build your confidence at whatever pace feels comfortable for you.",
+        "Let me give you a clear picture of the time investment: each course is broken down into manageable modules that you can work through systematically. Some students move through them in focused weeks, others spread it out over several months. Either approach works perfectly - what matters is that you're supported at every step of your journey.",
+        "I want to reassure you about the time commitment. We provide a clear learning structure with milestones to help you track your progress, but you're never locked into a rigid timeline. You'll have ongoing support through mentorship and our community, so you're never alone in the process."
+      ],
+      "cost_concerns": [
+        "I hear your concern about cost, and I want to be transparent about what you're receiving. When you join Photography Academy, you're not just purchasing a course - you're investing in a complete learning ecosystem. This includes structured courses, 1:1 mentorship, access to our private Discord community, and ongoing support as you grow.",
+        "Let me break down the value clearly: beyond the course content itself, you're getting personalized guidance from experienced photographers, a supportive community of fellow learners, and resources you can return to throughout your journey. We also offer flexible payment options to make this more accessible for you.",
+        "I understand cost is an important consideration. Think about what you're gaining: a structured path to photography mastery, personalized mentorship to guide you through challenges, and a community that will support you every step of the way. This isn't just education - it's an investment in yourself with ongoing returns."
+      ],
+      "equipment_concerns": [
+        "Let me provide you with clear guidance on equipment. Many students worry they need expensive gear to start, but that's simply not true. We'll help you understand exactly what you need at each stage of your journey, starting with whatever equipment you currently have. We provide structured equipment guidance so you're never guessing.",
+        "Here's what I want you to know clearly: you don't need to buy new equipment to begin. Our courses are designed to help you master fundamentals with whatever camera you have. As you grow and your skills develop, we'll guide you on smart equipment upgrades that make sense for your goals and budget.",
+        "I understand wanting to know about equipment requirements upfront. Here's the good news: our 'Mastering Basics' course is specifically designed to work with any camera - even a smartphone for some modules. We'll provide a structured equipment roadmap so you always know what you need and when, preventing any overwhelming or unnecessary purchases."
+      ],
+      "skill_concerns": [
+        "I want to reassure you - everyone starts somewhere, and you're in the right place. Our courses are designed with a structured, step-by-step approach that builds your skills progressively. You'll have clear guidance at each step, supportive feedback through mentorship, and a community of fellow learners who are on the same journey.",
+        "Here's something that might help: our courses include hands-on exercises with clear instructions and examples. You'll never be left wondering how to apply what you've learned. Plus, our mentors provide personalized feedback on your work, helping you improve with specific, actionable guidance.",
+        "I completely understand feeling uncertain about your skill level. Here's the supportive truth: our courses are designed for true beginners. We start with the fundamentals and build systematically from there. Many students who felt exactly as you do have gone on to create stunning work and build confidence they never knew they had."
+      ]
+    },
+    "gravitor_injection": {
+      "primary": ["structure", "guidance", "support", "growth", "progress", "development", "steady", "balanced", "together", "helpful"],
+      "secondary": ["systematically", "manageable", "clear", "organized", "nurture", "encourage", "step-by-step", "build confidence", "foundational"],
+      "usage": "Weave naturally - 'structured learning path', 'guided development', 'supportive community', 'steady progress', 'building your skills', 'we're here to help you grow'"
+    }
+  },
+  
+  "DS_engagement": {
+    "communication_approach": {
+      "pace": "Dynamic, varied, enthusiastic",
+      "tone": "Creative, inspiring, possibility-focused",
+      "sentence_structure": "Varied, energetic, with excitement",
+      "emphasis": "Creativity, innovation, possibilities, inspiration"
+    },
+    "language_patterns": {
+      "keywords": ["creatively", "explore", "innovate", "discover", "possibilities", "exciting", "venture", "inspire", "transform", "fresh", "unique", "dynamic", "adventure"],
+      "opening_phrases": [],
+      "acknowledgment_phrases": [],
+      "closing_phrases": [],
+      "transition_phrases": [
+        "This opens up another fascinating direction...",
+        "Speaking of creative possibilities...",
+        "Here's where it gets really interesting...",
+        "On that note, let's explore another angle..."
+      ],
+      "avoid": ["routine", "rigid", "limited", "restricted", "boring", "conventional", "stuck", "same old"]
+    },
+    "objection_handling": {
+      "time_concerns": [
+        "Here's what makes our approach so freeing: you're not locked into any rigid timeline or structure! While many students complete courses in 4-8 weeks, others take a completely different approach - jumping between topics, following their creative inspiration, exploring techniques that capture their imagination in the moment. This flexibility lets you follow your creative instincts!",
+        "Think about time differently here - it's not about completing a course, it's about discovering what ignites your creativity! Some students dive deep into portrait work for weeks, others bounce between landscape, editing, and creative techniques based on what inspires them that day. Lifetime access means you can follow your curiosity wherever it leads!",
+        "The beautiful thing about our platform is the freedom to explore! You might start with basics and suddenly find yourself captivated by creative lighting techniques - you can veer off and explore that passion for as long as it inspires you. This isn't a linear path, it's an adventure of creative discovery!"
+      ],
+      "cost_concerns": [
+        "Think about what you're really investing in: unlocking your creative potential and discovering possibilities you might never have imagined! This isn't just about photography skills - it's about opening doors to creative expression, artistic growth, and perhaps even career paths you haven't considered yet. The ROI here extends far beyond the course itself.",
+        "Here's how to think about the investment: you're purchasing unlimited creative exploration! With lifetime access to all courses, plus mentorship and community, you'll have an endless array of creative directions to explore. Many students discover passions and talents they never knew they had through this journey.",
+        "Consider this: the skills and creative vision you'll develop open up countless exciting possibilities - from stunning personal work to potential freelance opportunities, from artistic fulfillment to creative entrepreneurship. This is an investment in your creative future with unlimited potential for return!"
+      ],
+      "equipment_concerns": [
+        "Here's the exciting truth: creativity knows no equipment limits! Some of the most innovative photography I've seen was created with basic cameras or even smartphones. What matters is your vision and your willingness to experiment. Start exploring with what you have - you'll be amazed at the creative possibilities that open up!",
+        "Think of equipment as tools in your creative toolkit - each one opens up different creative directions, but you don't need them all to begin! Start with whatever you have, experiment wildly, discover what excites you, and then let your creative interests guide any future equipment choices. Follow your curiosity!",
+        "Here's an idea that might inspire you: instead of worrying about what equipment you don't have, focus on pushing the creative boundaries of what you DO have. Some of our most adventurous students have created incredible work by discovering creative workarounds and unconventional techniques with basic gear. That's where real innovation happens!"
+      ],
+      "skill_concerns": [
+        "Here's what excites me about your starting point: you have a completely blank canvas to discover your creative voice! You're not limited by any preconceived ideas or rigid techniques. Through experimentation and exploration, you'll uncover a unique style that's authentically yours. This journey of discovery is one of the most exciting parts of photography!",
+        "Think about learning differently here - it's not about following a rigid curriculum, it's about creative exploration! You'll experiment with different techniques, discover what resonates with your vision, and naturally gravitate toward approaches that inspire you. This isn't linear learning - it's an adventure of creative self-discovery!",
+        "I want to share something liberating: there's no one right way to be a photographer! Our courses expose you to countless techniques, styles, and approaches. You'll try things, discover what excites you, and build your own unique creative toolkit. This is about finding YOUR way, not following someone else's path!"
+      ]
+    },
+    "gravitor_injection": {
+      "primary": ["creativity", "innovation", "possibilities", "inspiration", "exploration", "discovery", "exciting", "fresh", "dynamic", "adventure"],
+      "secondary": ["ignite", "spark", "uncover", "unlock", "transform", "adventurous", "limitless", "captivating", "fascinating", "thrilling"],
+      "usage": "Weave naturally - 'creative possibilities', 'innovative techniques', 'inspiring journey', 'discover your unique style', 'exciting directions', 'creative adventure'"
+    }
+  },
+  
+  "DD_engagement": {
+    "communication_approach": {
+      "pace": "Fast, direct, efficient",
+      "tone": "Confident, action-oriented, results-focused",
+      "sentence_structure": "Short, punchy, direct",
+      "emphasis": "Results, achievement, efficiency, mastery"
+    },
+    "language_patterns": {
+      "keywords": ["efficiently", "achieve", "master", "succeed", "accomplish", "complete", "reach", "results", "action", "direct", "proven", "effective"],
+      "opening_phrases": [],
+      "acknowledgment_phrases": [],
+      "closing_phrases": [],
+      "transition_phrases": [
+        "Moving to the key point...",
+        "Here's what matters most...",
+        "The critical factor is...",
+        "Bottom line on this..."
+      ],
+      "avoid": ["maybe", "possibly", "perhaps", "uncertain", "ambiguous", "passive", "slow", "contemplative"]
+    },
+    "objection_handling": {
+      "time_concerns": [
+        "Direct answer: most students complete our courses in 4-8 weeks. They see results quickly because our curriculum is designed for efficiency. You can move faster if you're motivated - the content is structured so motivated students can accelerate their progress and achieve their goals on their timeline.",
+        "Here's the reality: our proven system gets you results efficiently. The curriculum is streamlined to focus on what works, eliminating fluff and wasted time. If you're goal-oriented and want to move fast, nothing is holding you back from achieving professional-level skills in weeks, not months.",
+        "Time investment: 4-8 weeks for completion, but you'll see results from week one. Our approach is designed for rapid skill acquisition and immediate application. You'll start producing better images immediately and continue improving quickly through focused, efficient learning."
+      ],
+      "cost_concerns": [
+        "Direct ROI calculation: Professional photography skills pay dividends immediately. Freelance photographers charge $50-200+ per hour. Our course pays for itself with just a few gigs. This isn't an expense - it's an investment that starts generating returns as soon as you start applying the skills.",
+        "Here's the business case: photography is a high-demand skill with multiple income streams - events, portraits, commercial work, stock photography. Our courses give you the complete skill set to tap into these markets efficiently. The investment is small compared to the earning potential.",
+        "Bottom line: This is an investment in professional skills that have clear monetary value. Whether you want to supplement income, build a freelance business, or enhance your career prospects, photography skills open doors to tangible financial opportunities. The math works in your favor."
+      ],
+      "equipment_concerns": [
+        "Direct guidance: start with what you have, master the fundamentals efficiently, then upgrade strategically. Don't waste money on gear you won't use. Our courses teach you exactly what equipment delivers professional results at each stage, so you invest wisely and see maximum ROI on every purchase.",
+        "Here's the efficient approach: focus on mastering composition, lighting, and technique first - these skills matter more than equipment. Once you've developed professional-level skills, upgrade to equipment that matches your capabilities and goals. This strategic approach prevents wasted spending and ensures every purchase delivers results.",
+        "Bottom line on equipment: expensive gear doesn't make you a better photographer - skills do. Our courses teach you to get professional results with basic equipment. When you do upgrade, you'll know exactly what you need and why. That's smart, efficient resource allocation."
+      ],
+      "skill_concerns": [
+        "Direct answer: our system works. Period. Students with zero experience achieve professional-level skills in weeks. The curriculum is battle-tested and proven. If you follow the structured approach and put in the work, you'll see measurable improvement. No magic, no talent required - just effective training and execution.",
+        "Here's what matters: our curriculum is designed for rapid skill acquisition. Each lesson builds directly on the previous one, creating an efficient learning path. You won't waste time on theory that doesn't translate to practice. You'll learn what works, apply it immediately, and see results.",
+        "Bottom line: doubt doesn't get results. Action does. Our courses give you the complete roadmap to photography mastery. The system is proven, the results are measurable, and the only variable is your commitment to execute. If you're ready to achieve, we're ready to deliver."
+      ]
+    },
+    "gravitor_injection": {
+      "primary": ["action", "achievement", "results", "efficiency", "success", "mastery", "direct", "proven", "effective", "accomplish"],
+      "secondary": ["execute", "deliver", "achieve", "master", "professional", "competitive", "tangible", "measurable", "rapid", "streamlined"],
+      "usage": "Weave naturally - 'achieve mastery', 'efficient learning', 'tangible results', 'professional success', 'proven system', 'direct results', 'measurable improvement'"
+    }
+  },
+  
+  "cultural_avatar_protocol": {
+    "enabled": false,
+    "usage_frequency": "Not applicable for photography academy",
+    "rationale": "Photography academy focuses on practical skills and business knowledge rather than personality framework examples"
+  },
+  
+  "photography_specific_protocols": {
+    "course_recommendations": {
+      "SS": "Emphasize artistic vision, meaningful photography, contemplative approach. Recommend: Landscape & Travel (contemplative), Editing (artistic expression). Frame courses as journeys of artistic discovery.",
+      "SD": "Emphasize structured learning, supportive community, steady growth. Recommend: Mastering Basics (clear foundation), Portrait (guided techniques). Frame courses as structured paths to skill development.",
+      "DS": "Emphasize creative exploration, variety, innovative techniques. Recommend: Multiple courses for variety, Editing (creative possibilities). Frame courses as exciting creative adventures.",
+      "DD": "Emphasize efficiency, professional results, business success. Recommend: Photography Business (career success), Commercial (professional skills). Frame courses as efficient paths to professional achievement."
+    },
+    "equipment_guidance": {
+      "SS": "Focus on tools that enable artistic vision, not expensive gear. Emphasize seeing over equipment. Frame equipment as supporting artistic expression.",
+      "SD": "Provide clear, structured equipment progression. Guide step-by-step from beginner to advanced. Emphasize smart, planned equipment investments.",
+      "DS": "Frame equipment as creative tools to explore. Emphasize variety and experimentation. Encourage discovering what tools inspire creativity.",
+      "DD": "Direct recommendations for professional-grade results. Focus on ROI and competitive advantage. Emphasize strategic equipment investments."
+    },
+    "pricing_discussion": {
+      "SS": "Frame as meaningful investment in creative growth. Emphasize lifetime value and depth of learning. Focus on artistic fulfillment.",
+      "SD": "Emphasize payment flexibility and ongoing support. Highlight community and mentorship value. Focus on comprehensive support system.",
+      "DS": "Focus on possibilities and opportunities. Emphasize creative potential and career options. Focus on opening creative doors.",
+      "DD": "Direct ROI discussion. Emphasize professional results and income potential. Focus on tangible financial returns."
+    }
+  },
+  
+  "variety_enhancement": {
+    "phrase_rotation": "Rotate through multiple phrase variations to avoid repetition",
+    "adaptive_vocabulary": "Use context-appropriate vocabulary that varies with conversation flow",
+    "natural_flow": "Maintain natural conversation flow while preserving type-specific characteristics",
+    "avoid_mechanical_repetition": "Never repeat the same phrase or combination more than once per conversation session"
+  }
+}

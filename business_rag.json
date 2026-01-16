@@ -1,0 +1,127 @@
+{
+  "metadata": {
+    "description": "Photography Academy - Modern photography education",
+    "version": "1.0",
+    "business_name": "Photography Academy",
+    "business_type": "Online Education - Photography"
+  },
+  
+  "about": {
+    "description": "We teach you how to see the world through photography. Modern, flexible, professional skills for aspiring photographers.",
+    "mission": "Transform your vision into stunning photographs through expert guidance and flexible learning",
+    "values": ["Creative expression", "Technical excellence", "Flexible learning", "Professional growth"]
+  },
+  
+  "courses": {
+    "mastering_basics": {
+      "name": "Mastering the Basics",
+      "description": "Complete foundation in photography fundamentals",
+      "duration": "4-8 weeks typical, lifetime access",
+      "target_audience": "Absolute beginners",
+      "what_you_learn": "Camera settings, composition, lighting basics, exposure triangle, focus techniques",
+      "price": "Contact for pricing",
+      "access": "Lifetime access, no deadlines"
+    },
+    "portrait_lifestyle": {
+      "name": "Portrait & Lifestyle Photography",
+      "description": "Master the art of photographing people",
+      "duration": "6-10 weeks typical, lifetime access",
+      "target_audience": "Intermediate photographers",
+      "what_you_learn": "Lighting setups, posing techniques, directing subjects, storytelling, natural light portraits",
+      "price": "Contact for pricing",
+      "access": "Lifetime access, no deadlines"
+    },
+    "commercial_product": {
+      "name": "Commercial & Product Photography",
+      "description": "Professional product and commercial photography",
+      "duration": "6-10 weeks typical, lifetime access",
+      "target_audience": "Intermediate to advanced",
+      "what_you_learn": "Studio lighting, product styling, e-commerce photography, branding, client work",
+      "price": "Contact for pricing",
+      "access": "Lifetime access, no deadlines"
+    },
+    "landscape_travel": {
+      "name": "Landscape & Travel Photography",
+      "description": "Capture stunning landscapes and travel moments",
+      "duration": "6-10 weeks typical, lifetime access",
+      "target_audience": "All levels",
+      "what_you_learn": "Golden hour techniques, long exposure, wide-angle composition, location scouting, travel photography",
+      "price": "Contact for pricing",
+      "access": "Lifetime access, no deadlines"
+    },
+    "editing_post_pro": {
+      "name": "Editing & Post-Production",
+      "description": "Master Adobe workflows and professional editing",
+      "duration": "6-8 weeks typical, lifetime access",
+      "target_audience": "All levels",
+      "what_you_learn": "Lightroom workflows, Photoshop techniques, color theory, retouching, AI-assisted editing",
+      "price": "Contact for pricing",
+      "access": "Lifetime access, no deadlines"
+    },
+    "photography_business": {
+      "name": "The Photography Business",
+      "description": "Turn your passion into a profitable business",
+      "duration": "8-12 weeks typical, lifetime access",
+      "target_audience": "Aspiring professional photographers",
+      "what_you_learn": "Pricing strategies, marketing, client contracts, portfolio building, SEO, social media",
+      "price": "Contact for pricing",
+      "access": "Lifetime access, no deadlines"
+    }
+  },
+  
+  "faq": {
+    "equipment": {
+      "question": "What camera equipment do I need?",
+      "answer": "No need for expensive gear to start! You can begin with what you have - even a smartphone. We focus on teaching you how to SEE and compose, not just operate equipment. As you progress, we'll guide you on equipment upgrades that make sense for your goals."
+    },
+    "timing": {
+      "question": "How long does it take to complete a course?",
+      "answer": "Most students complete courses in 4-8 weeks, but you have lifetime access with absolutely no deadlines. Learn at your own pace, revisit lessons anytime, and take as long as you need to master the material."
+    },
+    "beginner_friendly": {
+      "question": "I'm a complete beginner - is this for me?",
+      "answer": "Absolutely! Our 'Mastering the Basics' course is designed specifically for absolute beginners. We start from zero and build your skills step by step. No prior photography knowledge required."
+    },
+    "payment": {
+      "question": "What are the payment options?",
+      "answer": "We offer flexible payment options: Pay upfront (15% discount), monthly installments, or buy now pay later options. Contact us for specific pricing and payment plans."
+    },
+    "support": {
+      "question": "What kind of support do I get?",
+      "answer": "You get 1:1 mentorship opportunities, access to our private Discord community of photographers, career guidance, portfolio reviews, and ongoing support even after course completion."
+    },
+    "professional": {
+      "question": "Can I become a professional photographer?",
+      "answer": "Yes! Many of our students have launched successful photography businesses. Our 'Photography Business' course specifically covers pricing, marketing, client management, and everything you need to go professional."
+    },
+    "style": {
+      "question": "What photography style do you teach?",
+      "answer": "We teach foundational skills that apply to all styles, then help you discover and develop your unique creative voice. Whether you're drawn to portraits, landscapes, commercial, or artistic photography, we support your vision."
+    }
+  },
+  
+  "learning_approach": {
+    "philosophy": "We believe photography is about seeing, not just technical skills. We teach you to develop your creative eye while mastering the technical fundamentals.",
+    "flexibility": "Lifetime access, no deadlines, learn at your own pace",
+    "community": "Private Discord community, peer feedback, collaborative learning",
+    "mentorship": "1:1 guidance available, portfolio reviews, career support",
+    "practical": "Real-world projects, hands-on assignments, portfolio building"
+  },
+  
+  "policies": {
+    "payment": "Upfront payment (15% discount), monthly installments, or buy now pay later options available",
+    "refund": "30-day money-back guarantee if you're not satisfied",
+    "support": "Lifetime access to course materials, ongoing community support, 1:1 mentorship available",
+    "updates": "All courses updated regularly with new content at no additional cost"
+  },
+  
+  "contact": {
+    "email": "hello@photographyacademy.com",
+    "website": "https://photographyacademy.com",
+    "social_media": {
+      "instagram": "@photographyacademy",
+      "youtube": "Photography Academy",
+      "discord": "Private community (access with enrollment)"
+    }
+  }
+}
