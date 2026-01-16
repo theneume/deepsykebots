@@ -333,4 +333,9 @@ if __name__ == '__main__':
     print(f"Starting Deepsyke-powered bot on port {port}")
     print(f"Loaded {CULTURAL_AVATARS['metadata']['total_count']} cultural avatars")
     print(f"Business: {BUSINESS_RAG['metadata']['business_name']}")
-    app.run(host='0.0.0.0', port=port, debug=False)
+    try:
+        app.run(host='0.0.0.0', port=port, debug=False)
+    except Exception as e:
+        print(f"Error starting app: {e}")
+        import traceback
+        traceback.print_exc()
