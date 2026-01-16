@@ -8,6 +8,7 @@ from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
 import requests
 import json
+import os
 from datetime import datetime
 import random
 
@@ -328,7 +329,8 @@ def chat():
 
 
 if __name__ == '__main__':
-    print(f"Starting Deepsyke-powered bot on port {BOT_PORT}")
+    port = int(os.environ.get('PORT', 9009))
+    print(f"Starting Deepsyke-powered bot on port {port}")
     print(f"Loaded {CULTURAL_AVATARS['metadata']['total_count']} cultural avatars")
     print(f"Business: {BUSINESS_RAG['metadata']['business_name']}")
-    app.run(host='0.0.0.0', port=BOT_PORT, debug=False)
+    app.run(host='0.0.0.0', port=port, debug=False)
